@@ -46,5 +46,5 @@ python build_dataset.py
 
 - `build_dataset.py` seems to be so slow, make code more efficient
 - probably bug in test/val split
-
+- make better train.py
 
