@@ -42,5 +42,9 @@ Run the script `build_dataset.py` which will resize the images to size `(28, 28)
 python build_dataset.py
 ```
 
+## Todo
+
+- `build_dataset.py` seems to be so slow, make code more efficient
+- probably bug in test/val split
 
 
