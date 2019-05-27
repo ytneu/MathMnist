@@ -11,7 +11,7 @@ pip install -r requirements.txt
 
 ## Task
 
-Given  [kaggle](https://www.kaggle.com/xainano/handwrittenmathsymbols) handwritten math symbols dataset prepare data pipeline for future analysis.
+Given  [kaggle](https://www.kaggle.com/xainano/handwrittenmathsymbols) handwritten math symbols dataset prepare data for future analysis.
 
 
 ## Download the dataset
