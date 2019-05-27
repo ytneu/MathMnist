@@ -119,10 +119,31 @@ if __name__ == '__main__':
 
 	random.seed(230)
 
+	train_dir = args.output_dir + '/train'
+	val_dir = args.output_dir + '/val'
+	test_dir = args.output_dir + '/test'
+
+
 	if not os.path.exists(args.output_dir):
 		os.mkdir(args.output_dir)
 	else:
 		print("Warning output_dir {} already exists".format(args.output_dir))
+
+	if not os.path.exists(train_dir):
+		os.mkdir(train_dir)
+	else:
+		print("Warning output_dir {} already exists".format(train_dir))
+
+	if not os.path.exists(val_dir):
+		os.mkdir(val_dir)
+	else:
+		print("Warning output_dir {} already exists".format(val_dir))
+
+	if not os.path.exists(test_dir):
+		os.mkdir(test_dir)
+	else:
+		print("Warning output_dir {} already exists".format(test_dir))
+
 
 	if args.rename_images:
 		rename_images(args.data_dir)
